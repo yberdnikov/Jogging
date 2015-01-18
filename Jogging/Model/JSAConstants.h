@@ -1,0 +1,12 @@
+//
+//  JSAConstants.h
+//  Jogging
+//
+//  Created by Yuriy Berdnikov on 1/18/15.
+//  Copyright (c) 2015 Yuriy Berdnikov. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+extern NSString * const kJSAParseAppID;
+extern NSString * const kJSAParseClientKey;
