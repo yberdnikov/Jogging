@@ -41,6 +41,7 @@
 		74E9C8B21A6BDAE900831F09 /* JSARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E9C8B11A6BDAE900831F09 /* JSARootViewController.m */; };
 		74E9C8B71A6BDB2D00831F09 /* JSAEntryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E9C8B51A6BDB2D00831F09 /* JSAEntryTableViewCell.m */; };
 		74E9C8B81A6BDB2D00831F09 /* JSAEntryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74E9C8B61A6BDB2D00831F09 /* JSAEntryTableViewCell.xib */; };
+		74E9C8BC1A6BE5CF00831F09 /* JSAResetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E9C8BB1A6BE5CF00831F09 /* JSAResetPasswordViewController.m */; };
 		83B3341FD50C8C9F21A1F8A1 /* libPods-Jogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B108FB0146811C32DB9CFE /* libPods-Jogging.a */; };
 /* End PBXBuildFile section */
 
@@ -90,6 +91,8 @@
 		74E9C8B41A6BDB2D00831F09 /* JSAEntryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAEntryTableViewCell.h; sourceTree = "<group>"; };
 		74E9C8B51A6BDB2D00831F09 /* JSAEntryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAEntryTableViewCell.m; sourceTree = "<group>"; };
 		74E9C8B61A6BDB2D00831F09 /* JSAEntryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSAEntryTableViewCell.xib; sourceTree = "<group>"; };
+		74E9C8BA1A6BE5CF00831F09 /* JSAResetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAResetPasswordViewController.h; sourceTree = "<group>"; };
+		74E9C8BB1A6BE5CF00831F09 /* JSAResetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAResetPasswordViewController.m; sourceTree = "<group>"; };
 		7C514F1B83973D7C9D608D28 /* Pods-Jogging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jogging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jogging/Pods-Jogging.debug.xcconfig"; sourceTree = "<group>"; };
 		80B108FB0146811C32DB9CFE /* libPods-Jogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jogging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC271CA6AF1A362ADA115CB /* Pods-Jogging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jogging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jogging/Pods-Jogging.release.xcconfig"; sourceTree = "<group>"; };
@@ -249,6 +252,7 @@
 			children = (
 				74E9C8A01A6BC92100831F09 /* AuthenticationViewController */,
 				74E9C8A11A6BC92100831F09 /* LoginViewController */,
+				74E9C8B91A6BE5BD00831F09 /* ResetPasswordViewController */,
 				74E9C8A21A6BC92100831F09 /* SignupViewController */,
 			);
 			path = Authentication;
@@ -298,6 +302,15 @@
 				74E9C8B61A6BDB2D00831F09 /* JSAEntryTableViewCell.xib */,
 			);
 			path = EntryViewCell;
+			sourceTree = "<group>";
+		};
+		74E9C8B91A6BE5BD00831F09 /* ResetPasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74E9C8BA1A6BE5CF00831F09 /* JSAResetPasswordViewController.h */,
+				74E9C8BB1A6BE5CF00831F09 /* JSAResetPasswordViewController.m */,
+			);
+			path = ResetPasswordViewController;
 			sourceTree = "<group>";
 		};
 		86F188920315DDF41344333B /* Pods */ = {
@@ -421,6 +434,7 @@
 				74BF830E1A6BC45D008AA275 /* UIAlertView+Blocks.m in Sources */,
 				74BF82D91A6BC2FB008AA275 /* main.m in Sources */,
 				74E9C8A51A6BC94B00831F09 /* JSAAuthenticationViewController.m in Sources */,
+				74E9C8BC1A6BE5CF00831F09 /* JSAResetPasswordViewController.m in Sources */,
 				74E9C8AE1A6BCADC00831F09 /* JSAConstants.m in Sources */,
 				74BF830D1A6BC45D008AA275 /* NSString+Utilities.m in Sources */,
 				74E9C8AB1A6BC95F00831F09 /* JSASignupViewViewController.m in Sources */,
