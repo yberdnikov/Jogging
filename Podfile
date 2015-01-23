@@ -5,5 +5,6 @@ target 'Jogging' do
 pod 'TPKeyboardAvoiding', :head
 pod 'SVProgressHUD', :head
 pod 'ActionSheetPicker-3.0', '~> 1.1.2'
+pod 'MZFormSheetController'
 end
 

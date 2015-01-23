@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface JSAEntryTableViewCell : UITableViewCell
+
+@property (nonatomic, strong) PFObject *entryInfo;
 
 + (NSString *)reuseIdentifier;
 

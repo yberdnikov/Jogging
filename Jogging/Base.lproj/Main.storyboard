@@ -465,7 +465,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DJD-pd-Fw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-823" y="1855"/>
+            <point key="canvasLocation" x="-503" y="1863"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="hlY-34-HP9">
@@ -523,6 +523,9 @@
                                 <state key="normal" image="add_icon">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="addNewEntryButtonPressed:" destination="47t-77-c5Z" eventType="touchUpInside" id="hyt-eq-ApG"/>
+                                </connections>
                             </button>
                         </barButtonItem>
                     </navigationItem>
@@ -532,7 +535,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ly6-pD-XWj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-102" y="1855"/>
+            <point key="canvasLocation" x="218" y="1863"/>
+        </scene>
+        <!--Add Entry View Controller-->
+        <scene sceneID="d3n-hv-tgD">
+            <objects>
+                <viewController storyboardIdentifier="addEntryViewController" id="1RB-d5-wLh" customClass="JSAAddEntryViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8pz-f2-FIg"/>
+                        <viewControllerLayoutGuide type="bottom" id="7tY-Pt-hB7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1t0-Sm-y2A">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqY-xs-t5p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="933" y="1863"/>
         </scene>
     </scenes>
     <resources>

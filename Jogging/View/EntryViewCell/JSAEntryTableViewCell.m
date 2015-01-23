@@ -8,6 +8,15 @@
 
 #import "JSAEntryTableViewCell.h"
 
+@interface JSAEntryTableViewCell ()
+
+@property (weak, nonatomic) IBOutlet UILabel *dateLabel;
+@property (weak, nonatomic) IBOutlet UILabel *distanceLabel;
+@property (weak, nonatomic) IBOutlet UILabel *timeLabel;
+@property (weak, nonatomic) IBOutlet UILabel *avgTimeLabel;
+
+@end
+
 @implementation JSAEntryTableViewCell
 
 + (NSString *)reuseIdentifier
@@ -18,6 +27,13 @@
 - (void)awakeFromNib
 {
     // Initialization code
+}
+
+- (void)setEntryInfo:(PFObject *)entryInfo
+{
+    _entryInfo = entryInfo;
+    if (!entryInfo)
+        return;
 }
 
 @end

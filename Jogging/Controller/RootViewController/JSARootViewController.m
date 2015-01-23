@@ -11,6 +11,9 @@
 #import <SVProgressHUD/SVProgressHUD.h>
 #import <Parse/Parse.h>
 #import "JSAEntryTableViewCell.h"
+#import "JSAAddEntryViewController.h"
+#import "JSAConstants.h"
+#import <MZFormSheetController.h>
 
 @interface JSARootViewController ()
 
@@ -65,6 +68,23 @@
     [PFUser logOut];
     
     [self presentAuthenticationController];
+}
+
+- (IBAction)addNewEntryButtonPressed:(UIButton *)sender
+{
+    JSAAddEntryViewController *addEntryViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"addEntryViewController"];
+    
+    MZFormSheetController *formSheet = [[MZFormSheetController alloc] initWithViewController:addEntryViewController];
+    formSheet.shouldDismissOnBackgroundViewTap = YES;
+    formSheet.transitionStyle = MZFormSheetTransitionStyleSlideFromBottom;
+    formSheet.cornerRadius = 8.0;
+    formSheet.portraitTopInset = 6.0;
+    formSheet.landscapeTopInset = 6.0;
+    formSheet.presentedFormSheetSize = CGSizeMake(320, 200);
+    
+    [self mz_presentFormSheetController:formSheet animated:YES completionHandler:^(MZFormSheetController *formSheetController) {
+        
+    }];
 }
 
 #pragma mark - UITableViewDataSource methods
