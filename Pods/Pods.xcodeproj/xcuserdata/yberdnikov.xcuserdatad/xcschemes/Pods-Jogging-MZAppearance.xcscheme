@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4777EA6C03DA21841FEEFBE9"
+               BlueprintIdentifier = "B6BE0DA19521A17D97DC06E2"
                BuildableName = "libPods-Jogging-MZAppearance.a"
                BlueprintName = "Pods-Jogging-MZAppearance"
                ReferencedContainer = "container:Pods.xcodeproj">

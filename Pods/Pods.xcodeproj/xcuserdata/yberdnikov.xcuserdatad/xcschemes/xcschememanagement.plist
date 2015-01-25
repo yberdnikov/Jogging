@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Jogging-NPReachability.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Jogging-SVProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,32 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2771D350C1EE21803835495F</key>
+		<key>0A132E68E89759F1096D8722</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2FD24BDCDCCB348E8544E1B3</key>
+		<key>1F0DC60B23F3B94A32CA29A4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4777EA6C03DA21841FEEFBE9</key>
+		<key>4485162BE719A49840F414EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6534CC18AE90EF03BB5F65A2</key>
+		<key>496C1B4DADB437C38938A3C7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>964F1FC31890AD692CA351A1</key>
+		<key>7CE95E3D2ED0DC2FFB1692E7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF7BC17549C3ABEB5DDBDF48</key>
+		<key>851FDD3B96729F8C15A6EDD7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6BE0DA19521A17D97DC06E2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

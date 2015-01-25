@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -24,9 +24,8 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR DISTANCE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSV-AD-F9j">
-                        <rect key="frame" x="8" y="23" width="84" height="15"/>
+                        <rect key="frame" x="8" y="23" width="94" height="15"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="84" id="Y3t-2a-T2k"/>
                             <constraint firstAttribute="height" constant="15" id="Y70-xS-8Tq"/>
                         </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
@@ -43,7 +42,7 @@
                         <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TIME FOR MILE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUm-7u-hW5">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPEED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUm-7u-hW5">
                         <rect key="frame" x="232" y="23" width="80" height="15"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="15" id="5nJ-f9-DC1"/>
@@ -54,19 +53,19 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="101" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Al8-DZ-JVj">
-                        <rect key="frame" x="3" y="46" width="99" height="21"/>
+                        <rect key="frame" x="3" y="42" width="99" height="25"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.011775775547445244" green="0.61208371350364965" blue="0.9449418339416058" alpha="1" colorSpace="deviceRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3vq-oG-Cn4">
-                        <rect key="frame" x="110" y="46" width="100" height="21"/>
+                        <rect key="frame" x="110" y="42" width="100" height="25"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.011775775547445244" green="0.61208371350364965" blue="0.9449418339416058" alpha="1" colorSpace="deviceRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="100" placeholderIntrinsicHeight="21" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="tKl-1k-Gsa">
-                        <rect key="frame" x="218" y="46" width="102" height="21"/>
+                        <rect key="frame" x="218" y="42" width="102" height="25"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.011775775547445244" green="0.61208371350364965" blue="0.9449418339416058" alpha="1" colorSpace="deviceRGB"/>
                         <nil key="highlightedColor"/>
@@ -84,15 +83,16 @@
                     <constraint firstItem="O3h-Qx-02l" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="XK4-3s-IRD"/>
                     <constraint firstAttribute="trailing" secondItem="tKl-1k-Gsa" secondAttribute="trailing" id="XQP-6d-fbN"/>
                     <constraint firstAttribute="bottom" secondItem="Al8-DZ-JVj" secondAttribute="bottom" constant="7" id="abr-3d-bfU"/>
-                    <constraint firstItem="Al8-DZ-JVj" firstAttribute="top" secondItem="qSV-AD-F9j" secondAttribute="bottom" constant="8" id="cRY-MZ-0LC"/>
+                    <constraint firstItem="Al8-DZ-JVj" firstAttribute="top" secondItem="qSV-AD-F9j" secondAttribute="bottom" constant="4" id="cRY-MZ-0LC"/>
                     <constraint firstAttribute="bottom" secondItem="tKl-1k-Gsa" secondAttribute="bottom" constant="7" id="eEg-aT-28Q"/>
                     <constraint firstAttribute="trailing" secondItem="O3h-Qx-02l" secondAttribute="trailing" constant="8" id="egR-XE-PnI"/>
                     <constraint firstItem="qSV-AD-F9j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="l9Z-a0-THj"/>
                     <constraint firstItem="tKl-1k-Gsa" firstAttribute="leading" secondItem="3vq-oG-Cn4" secondAttribute="trailing" constant="8" id="ldK-8S-pSJ"/>
                     <constraint firstItem="3vq-oG-Cn4" firstAttribute="leading" secondItem="Al8-DZ-JVj" secondAttribute="trailing" constant="8" id="phC-QU-0eL"/>
-                    <constraint firstItem="3vq-oG-Cn4" firstAttribute="top" secondItem="6ro-pE-GZR" secondAttribute="bottom" constant="8" id="qKC-JZ-OpM"/>
-                    <constraint firstItem="tKl-1k-Gsa" firstAttribute="top" secondItem="HUm-7u-hW5" secondAttribute="bottom" constant="8" id="qM2-c6-0uD"/>
+                    <constraint firstItem="3vq-oG-Cn4" firstAttribute="top" secondItem="6ro-pE-GZR" secondAttribute="bottom" constant="4" id="qKC-JZ-OpM"/>
+                    <constraint firstItem="tKl-1k-Gsa" firstAttribute="top" secondItem="HUm-7u-hW5" secondAttribute="bottom" constant="4" id="qM2-c6-0uD"/>
                     <constraint firstAttribute="bottom" secondItem="3vq-oG-Cn4" secondAttribute="bottom" constant="7" id="t0v-ST-6vs"/>
+                    <constraint firstItem="qSV-AD-F9j" firstAttribute="trailing" secondItem="Al8-DZ-JVj" secondAttribute="trailing" id="z1m-dz-Rnf"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>

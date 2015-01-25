@@ -12,3 +12,8 @@
 
 extern NSString * const kJSAParseAppID;
 extern NSString * const kJSAParseClientKey;
+
+#define MAX_DISTANCE_MI 100
+#define YARDS_IN_MILE 1760
+#define MILE_IN_YARDS 0.000568182
+

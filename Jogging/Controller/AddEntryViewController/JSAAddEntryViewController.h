@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface JSAAddEntryViewController : UIViewController
+
+@property (nonatomic, strong) PFObject *entry;
+@property (nonatomic, copy) void(^onDone)(PFObject *entry);
 
 @end

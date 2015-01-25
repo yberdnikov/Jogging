@@ -30,6 +30,12 @@
 #define COCOAPODS_VERSION_MINOR_MZFormSheetController_Core 4
 #define COCOAPODS_VERSION_PATCH_MZFormSheetController_Core 1
 
+// NPReachability
+#define COCOAPODS_POD_AVAILABLE_NPReachability
+#define COCOAPODS_VERSION_MAJOR_NPReachability 0
+#define COCOAPODS_VERSION_MINOR_NPReachability 2
+#define COCOAPODS_VERSION_PATCH_NPReachability 0
+
 // SVProgressHUD
 #define COCOAPODS_POD_AVAILABLE_SVProgressHUD
 #define COCOAPODS_VERSION_MAJOR_SVProgressHUD 1

@@ -6,5 +6,6 @@ pod 'TPKeyboardAvoiding', :head
 pod 'SVProgressHUD', :head
 pod 'ActionSheetPicker-3.0', '~> 1.1.2'
 pod 'MZFormSheetController'
+pod 'NPReachability', '~>0.2.0'
 end
 

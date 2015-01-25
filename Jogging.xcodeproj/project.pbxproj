@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		744C568E1A73C929003593A7 /* JSAAddEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C568D1A73C929003593A7 /* JSAAddEntryViewController.m */; };
+		744C56921A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56911A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m */; };
+		744C56961A751439003593A7 /* JSAFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56951A751439003593A7 /* JSAFilterViewController.m */; };
+		744C56991A752ABA003593A7 /* NSDate+dateRanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56981A752ABA003593A7 /* NSDate+dateRanges.m */; };
 		74BF82D91A6BC2FB008AA275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF82D81A6BC2FB008AA275 /* main.m */; };
 		74BF82DC1A6BC2FB008AA275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF82DB1A6BC2FB008AA275 /* AppDelegate.m */; };
 		74BF82E21A6BC2FB008AA275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BF82E01A6BC2FB008AA275 /* Main.storyboard */; };
@@ -46,6 +50,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		744C568C1A73C929003593A7 /* JSAAddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAAddEntryViewController.h; sourceTree = "<group>"; };
+		744C568D1A73C929003593A7 /* JSAAddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAAddEntryViewController.m; sourceTree = "<group>"; };
+		744C56901A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetController+SVProgressHUD.h"; sourceTree = "<group>"; };
+		744C56911A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MZFormSheetController+SVProgressHUD.m"; sourceTree = "<group>"; };
+		744C56941A751439003593A7 /* JSAFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAFilterViewController.h; sourceTree = "<group>"; };
+		744C56951A751439003593A7 /* JSAFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAFilterViewController.m; sourceTree = "<group>"; };
+		744C56971A752ABA003593A7 /* NSDate+dateRanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateRanges.h"; sourceTree = "<group>"; };
+		744C56981A752ABA003593A7 /* NSDate+dateRanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateRanges.m"; sourceTree = "<group>"; };
 		74BF82D31A6BC2FB008AA275 /* Jogging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BF82D71A6BC2FB008AA275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BF82D81A6BC2FB008AA275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -154,6 +166,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		744C568B1A73C929003593A7 /* AddEntryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				744C568C1A73C929003593A7 /* JSAAddEntryViewController.h */,
+				744C568D1A73C929003593A7 /* JSAAddEntryViewController.m */,
+			);
+			path = AddEntryViewController;
+			sourceTree = "<group>";
+		};
+		744C568F1A74FE58003593A7 /* MZFormSheetController+SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				744C56901A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.h */,
+				744C56911A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m */,
+			);
+			path = "MZFormSheetController+SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		744C56931A751427003593A7 /* FilterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				744C56941A751439003593A7 /* JSAFilterViewController.h */,
+				744C56951A751439003593A7 /* JSAFilterViewController.m */,
+			);
+			path = FilterViewController;
+			sourceTree = "<group>";
+		};
 		74BF82CA1A6BC2FA008AA275 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +241,7 @@
 		74BF82FC1A6BC433008AA275 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
+				744C568F1A74FE58003593A7 /* MZFormSheetController+SVProgressHUD */,
 				74BF82FD1A6BC433008AA275 /* Bolts.framework */,
 				74BF82FE1A6BC433008AA275 /* Parse.framework */,
 				74BF82FF1A6BC433008AA275 /* ParseCrashReporting.framework */,
@@ -213,6 +253,8 @@
 		74BF83011A6BC433008AA275 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				744C56971A752ABA003593A7 /* NSDate+dateRanges.h */,
+				744C56981A752ABA003593A7 /* NSDate+dateRanges.m */,
 				74BF83091A6BC45D008AA275 /* NSString+Utilities.h */,
 				74BF830A1A6BC45D008AA275 /* NSString+Utilities.m */,
 				74BF830B1A6BC45D008AA275 /* UIAlertView+Blocks.h */,
@@ -226,6 +268,8 @@
 			children = (
 				74E9C89F1A6BC92100831F09 /* Authentication */,
 				74E9C8AF1A6BDAD600831F09 /* RootViewController */,
+				744C568B1A73C929003593A7 /* AddEntryViewController */,
+				744C56931A751427003593A7 /* FilterViewController */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -432,13 +476,17 @@
 				74E9C8B21A6BDAE900831F09 /* JSARootViewController.m in Sources */,
 				74BF82DC1A6BC2FB008AA275 /* AppDelegate.m in Sources */,
 				74BF830E1A6BC45D008AA275 /* UIAlertView+Blocks.m in Sources */,
+				744C56961A751439003593A7 /* JSAFilterViewController.m in Sources */,
+				744C56991A752ABA003593A7 /* NSDate+dateRanges.m in Sources */,
 				74BF82D91A6BC2FB008AA275 /* main.m in Sources */,
 				74E9C8A51A6BC94B00831F09 /* JSAAuthenticationViewController.m in Sources */,
+				744C56921A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m in Sources */,
 				74E9C8BC1A6BE5CF00831F09 /* JSAResetPasswordViewController.m in Sources */,
 				74E9C8AE1A6BCADC00831F09 /* JSAConstants.m in Sources */,
 				74BF830D1A6BC45D008AA275 /* NSString+Utilities.m in Sources */,
 				74E9C8AB1A6BC95F00831F09 /* JSASignupViewViewController.m in Sources */,
 				74E9C8A81A6BC95400831F09 /* JSALoginViewController.m in Sources */,
+				744C568E1A73C929003593A7 /* JSAAddEntryViewController.m in Sources */,
 				74E9C8B71A6BDB2D00831F09 /* JSAEntryTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
