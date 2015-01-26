@@ -39,40 +39,60 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-JoggingAppTests-Kiwi.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JoggingAppTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0A132E68E89759F1096D8722</key>
+		<key>3EEC8E81563F58A46A86B03A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1F0DC60B23F3B94A32CA29A4</key>
+		<key>42419A3BD921D05815E9943D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4485162BE719A49840F414EA</key>
+		<key>6740AB00E5735C881DA0686E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>496C1B4DADB437C38938A3C7</key>
+		<key>9653A2BB3EB722FD0453B8F0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7CE95E3D2ED0DC2FFB1692E7</key>
+		<key>A6585209CBA274F6CBDEA97D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>851FDD3B96729F8C15A6EDD7</key>
+		<key>AB2B048BDEC787055F4BD85E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6BE0DA19521A17D97DC06E2</key>
+		<key>D3F40DDD2879DED1B55AFA1D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F88E4B16BDFAB9EF1C0001BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FDD77ADDA819DBD215E47A81</key>
 		<dict>
 			<key>primary</key>
 			<true/>

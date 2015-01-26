@@ -375,11 +375,11 @@
     {
         case 0:
         case 2:
-            return CGRectGetWidth(pickerView.bounds) / 4;
+            return CGRectGetWidth(pickerView.bounds) / 4 - 5;
             
         case 1:
         case 3:
-            return CGRectGetWidth(pickerView.bounds) / 5;
+            return CGRectGetWidth(pickerView.bounds) / 5 + 5;
             
         default:
             return 0;

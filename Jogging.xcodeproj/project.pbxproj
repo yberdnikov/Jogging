@@ -11,6 +11,22 @@
 		744C56921A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56911A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.m */; };
 		744C56961A751439003593A7 /* JSAFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56951A751439003593A7 /* JSAFilterViewController.m */; };
 		744C56991A752ABA003593A7 /* NSDate+dateRanges.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56981A752ABA003593A7 /* NSDate+dateRanges.m */; };
+		744C56A31A7614EA003593A7 /* JoggingAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 744C56A21A7614EA003593A7 /* JoggingAppTests.m */; };
+		744C56A91A76164C003593A7 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF82FD1A6BC433008AA275 /* Bolts.framework */; };
+		744C56AA1A76164C003593A7 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF82FE1A6BC433008AA275 /* Parse.framework */; };
+		744C56AB1A76164C003593A7 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF82FF1A6BC433008AA275 /* ParseCrashReporting.framework */; };
+		744C56AC1A76164C003593A7 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83001A6BC433008AA275 /* ParseUI.framework */; };
+		744C56AD1A761685003593A7 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF832D1A6BC7B0008AA275 /* libstdc++.6.dylib */; };
+		744C56AE1A761699003593A7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83231A6BC75D008AA275 /* libsqlite3.dylib */; };
+		744C56AF1A7616A5003593A7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83271A6BC776008AA275 /* Social.framework */; };
+		744C56B01A7616AF003593A7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83251A6BC76F008AA275 /* Accounts.framework */; };
+		744C56B11A7616BD003593A7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83211A6BC752008AA275 /* libz.dylib */; };
+		744C56B21A7616CE003593A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF831F1A6BC74D008AA275 /* SystemConfiguration.framework */; };
+		744C56B31A7616D2003593A7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83111A6BC71E008AA275 /* StoreKit.framework */; };
+		744C56B41A7616E2003593A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83151A6BC72A008AA275 /* AudioToolbox.framework */; };
+		744C56B51A7616F4003593A7 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF83171A6BC72F008AA275 /* CFNetwork.framework */; };
+		744C56B61A7616FA003593A7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BF831B1A6BC73A008AA275 /* MobileCoreServices.framework */; };
+		747FF64A3A4878C3C1FD844A /* libPods-JoggingAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 661EC7D5835BFAECC02D6EB6 /* libPods-JoggingAppTests.a */; };
 		74BF82D91A6BC2FB008AA275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF82D81A6BC2FB008AA275 /* main.m */; };
 		74BF82DC1A6BC2FB008AA275 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BF82DB1A6BC2FB008AA275 /* AppDelegate.m */; };
 		74BF82E21A6BC2FB008AA275 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BF82E01A6BC2FB008AA275 /* Main.storyboard */; };
@@ -49,7 +65,19 @@
 		83B3341FD50C8C9F21A1F8A1 /* libPods-Jogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B108FB0146811C32DB9CFE /* libPods-Jogging.a */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		744C56A41A7614EA003593A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74BF82CB1A6BC2FA008AA275 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74BF82D21A6BC2FB008AA275;
+			remoteInfo = Jogging;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		278E357B633276DA42356610 /* Pods-JoggingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoggingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JoggingAppTests/Pods-JoggingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		661EC7D5835BFAECC02D6EB6 /* libPods-JoggingAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JoggingAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		744C568C1A73C929003593A7 /* JSAAddEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAAddEntryViewController.h; sourceTree = "<group>"; };
 		744C568D1A73C929003593A7 /* JSAAddEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAAddEntryViewController.m; sourceTree = "<group>"; };
 		744C56901A74FE58003593A7 /* MZFormSheetController+SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MZFormSheetController+SVProgressHUD.h"; sourceTree = "<group>"; };
@@ -58,6 +86,9 @@
 		744C56951A751439003593A7 /* JSAFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAFilterViewController.m; sourceTree = "<group>"; };
 		744C56971A752ABA003593A7 /* NSDate+dateRanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+dateRanges.h"; sourceTree = "<group>"; };
 		744C56981A752ABA003593A7 /* NSDate+dateRanges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+dateRanges.m"; sourceTree = "<group>"; };
+		744C569E1A7614EA003593A7 /* JoggingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JoggingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		744C56A11A7614EA003593A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744C56A21A7614EA003593A7 /* JoggingAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoggingAppTests.m; sourceTree = "<group>"; };
 		74BF82D31A6BC2FB008AA275 /* Jogging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jogging.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BF82D71A6BC2FB008AA275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74BF82D81A6BC2FB008AA275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,9 +139,32 @@
 		7C514F1B83973D7C9D608D28 /* Pods-Jogging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jogging.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jogging/Pods-Jogging.debug.xcconfig"; sourceTree = "<group>"; };
 		80B108FB0146811C32DB9CFE /* libPods-Jogging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Jogging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EC271CA6AF1A362ADA115CB /* Pods-Jogging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jogging.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jogging/Pods-Jogging.release.xcconfig"; sourceTree = "<group>"; };
+		B01BA7FCABC3DAA5D3F38B71 /* Pods-JoggingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JoggingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JoggingAppTests/Pods-JoggingAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		744C569B1A7614EA003593A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C56B61A7616FA003593A7 /* MobileCoreServices.framework in Frameworks */,
+				744C56B51A7616F4003593A7 /* CFNetwork.framework in Frameworks */,
+				744C56B41A7616E2003593A7 /* AudioToolbox.framework in Frameworks */,
+				744C56B31A7616D2003593A7 /* StoreKit.framework in Frameworks */,
+				744C56B21A7616CE003593A7 /* SystemConfiguration.framework in Frameworks */,
+				744C56B11A7616BD003593A7 /* libz.dylib in Frameworks */,
+				744C56B01A7616AF003593A7 /* Accounts.framework in Frameworks */,
+				744C56AF1A7616A5003593A7 /* Social.framework in Frameworks */,
+				744C56AE1A761699003593A7 /* libsqlite3.dylib in Frameworks */,
+				744C56AD1A761685003593A7 /* libstdc++.6.dylib in Frameworks */,
+				747FF64A3A4878C3C1FD844A /* libPods-JoggingAppTests.a in Frameworks */,
+				744C56AA1A76164C003593A7 /* Parse.framework in Frameworks */,
+				744C56AC1A76164C003593A7 /* ParseUI.framework in Frameworks */,
+				744C56A91A76164C003593A7 /* Bolts.framework in Frameworks */,
+				744C56AB1A76164C003593A7 /* ParseCrashReporting.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BF82D01A6BC2FB008AA275 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +216,7 @@
 				74BF83111A6BC71E008AA275 /* StoreKit.framework */,
 				74BF830F1A6BC71A008AA275 /* CoreLocation.framework */,
 				80B108FB0146811C32DB9CFE /* libPods-Jogging.a */,
+				661EC7D5835BFAECC02D6EB6 /* libPods-JoggingAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,10 +248,28 @@
 			path = FilterViewController;
 			sourceTree = "<group>";
 		};
+		744C569F1A7614EA003593A7 /* JoggingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				744C56A21A7614EA003593A7 /* JoggingAppTests.m */,
+				744C56A01A7614EA003593A7 /* Supporting Files */,
+			);
+			path = JoggingAppTests;
+			sourceTree = "<group>";
+		};
+		744C56A01A7614EA003593A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				744C56A11A7614EA003593A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		74BF82CA1A6BC2FA008AA275 = {
 			isa = PBXGroup;
 			children = (
 				74BF82D51A6BC2FB008AA275 /* Jogging */,
+				744C569F1A7614EA003593A7 /* JoggingAppTests */,
 				74BF82D41A6BC2FB008AA275 /* Products */,
 				86F188920315DDF41344333B /* Pods */,
 				599F07B23E751F7B26900860 /* Frameworks */,
@@ -207,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				74BF82D31A6BC2FB008AA275 /* Jogging.app */,
+				744C569E1A7614EA003593A7 /* JoggingAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -362,6 +436,8 @@
 			children = (
 				7C514F1B83973D7C9D608D28 /* Pods-Jogging.debug.xcconfig */,
 				8EC271CA6AF1A362ADA115CB /* Pods-Jogging.release.xcconfig */,
+				278E357B633276DA42356610 /* Pods-JoggingAppTests.debug.xcconfig */,
+				B01BA7FCABC3DAA5D3F38B71 /* Pods-JoggingAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -369,6 +445,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		744C569D1A7614EA003593A7 /* JoggingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 744C56A81A7614EA003593A7 /* Build configuration list for PBXNativeTarget "JoggingAppTests" */;
+			buildPhases = (
+				138D571C5F3DF3C63D71AD3A /* Check Pods Manifest.lock */,
+				744C569A1A7614EA003593A7 /* Sources */,
+				744C569B1A7614EA003593A7 /* Frameworks */,
+				744C569C1A7614EA003593A7 /* Resources */,
+				4E4DB42455D36813B47ACFCE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				744C56A51A7614EA003593A7 /* PBXTargetDependency */,
+			);
+			name = JoggingAppTests;
+			productName = JoggingAppTests;
+			productReference = 744C569E1A7614EA003593A7 /* JoggingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		74BF82D21A6BC2FB008AA275 /* Jogging */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 74BF82F61A6BC2FB008AA275 /* Build configuration list for PBXNativeTarget "Jogging" */;
@@ -398,6 +494,10 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Yuriy Berdnikov";
 				TargetAttributes = {
+					744C569D1A7614EA003593A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 74BF82D21A6BC2FB008AA275;
+					};
 					74BF82D21A6BC2FB008AA275 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -417,11 +517,19 @@
 			projectRoot = "";
 			targets = (
 				74BF82D21A6BC2FB008AA275 /* Jogging */,
+				744C569D1A7614EA003593A7 /* JoggingAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		744C569C1A7614EA003593A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BF82D11A6BC2FB008AA275 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -436,6 +544,36 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		138D571C5F3DF3C63D71AD3A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E4DB42455D36813B47ACFCE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JoggingAppTests/Pods-JoggingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		A023F76FC21E828FF5C545C9 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -469,6 +607,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		744C569A1A7614EA003593A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				744C56A31A7614EA003593A7 /* JoggingAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		74BF82CF1A6BC2FB008AA275 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,6 +639,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		744C56A51A7614EA003593A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74BF82D21A6BC2FB008AA275 /* Jogging */;
+			targetProxy = 744C56A41A7614EA003593A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		74BF82E01A6BC2FB008AA275 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -513,6 +667,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		744C56A61A7614EA003593A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 278E357B633276DA42356610 /* Pods-JoggingAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jogging/3rdParty",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JoggingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogging.app/Jogging";
+			};
+			name = Debug;
+		};
+		744C56A71A7614EA003593A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01BA7FCABC3DAA5D3F38B71 /* Pods-JoggingAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Jogging/3rdParty",
+				);
+				INFOPLIST_FILE = JoggingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogging.app/Jogging";
+			};
+			name = Release;
+		};
 		74BF82F41A6BC2FB008AA275 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -622,6 +814,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		744C56A81A7614EA003593A7 /* Build configuration list for PBXNativeTarget "JoggingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				744C56A61A7614EA003593A7 /* Debug */,
+				744C56A71A7614EA003593A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		74BF82CE1A6BC2FA008AA275 /* Build configuration list for PBXProject "Jogging" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -9,3 +9,7 @@ pod 'MZFormSheetController'
 pod 'NPReachability', '~>0.2.0'
 end
 
+target :JoggingAppTests, :exclusive => true do
+    pod 'Kiwi'
+end
+
